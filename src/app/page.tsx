@@ -106,7 +106,7 @@ export default function Home() {
                 Prisma
               </li>
             </ul>} */}
-            <h5 className="my-2 w-max border-b-[1px] border-cyan-50">
+            <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               Frontend Centric
             </h5>
             <ul className="grid w-1/2 grid-cols-2 gap-4">
@@ -136,7 +136,7 @@ export default function Home() {
               </li>
             </ul>
 
-            <h5 className="my-2 w-max border-b-[1px] border-cyan-50">
+            <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               Backend Centric
             </h5>
             <ul className="grid w-1/2 grid-cols-2 gap-4">
@@ -157,7 +157,7 @@ export default function Home() {
               </li>
             </ul>
 
-            <h5 className="my-2 w-max border-b-[1px] border-cyan-50">
+            <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               Mobile development
             </h5>
             <ul className="grid w-1/2 grid-cols-2 gap-4">
@@ -171,7 +171,7 @@ export default function Home() {
               </li>
             </ul>
 
-            <h5 className="my-2 w-max border-b-[1px] border-cyan-50">
+            <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               UI Frameworks
             </h5>
             <ul className="grid w-1/2 grid-cols-2 gap-4">
@@ -202,7 +202,9 @@ export default function Home() {
               </li>
             </ul>
 
-            <h5 className="my-2 w-max border-b-[1px] border-cyan-50">Tools</h5>
+            <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
+              Tools
+            </h5>
             <ul className="grid w-1/2 grid-cols-2 gap-4">
               <li className="flex gap-x-2 align-middle">
                 <Icon icon="devicon:vscode" className="text-2xl" />
