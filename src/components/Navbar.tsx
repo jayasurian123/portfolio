@@ -37,34 +37,6 @@ const Navbar = () => {
     }
   }
 
-  {
-    /* <p className="text-blue-300"></p>
-
-      <div className="flex items-center justify-end gap-4">
-        <ul className="w-full">
-          <li>
-            <Link href="#about">{`// about`}</Link>
-          </li>
-          <li>
-            <Link href="#experience">{`// experience`}</Link>
-          </li>
-          <li>
-            <Link href="#contact">{`// contact`}</Link>
-          </li>
-        </ul>
-        <Button variant="link" className="px-0">
-          <Icon
-            icon={
-              resolvedTheme === "dark"
-                ? "line-md:sun-rising-filled-loop"
-                : "line-md:moon-loop"
-            }
-            onClick={toggleTheme}
-            className="text-2xl"
-          />
-        </Button>
-      </div> */
-  }
   return (
     <nav className="sticky top-0 flex flex-col justify-between bg-primary-foreground">
       <div className="flex items-center justify-end gap-4">
