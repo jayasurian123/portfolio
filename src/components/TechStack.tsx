@@ -19,9 +19,9 @@ const TechStack = () => {
       <div className="mt-10 flex items-center gap-x-4">
         <p>Here are few techs I do these days</p>
       </div>
-      <div className="mt-4 flex flex-col gap-5">
+      <div className="mt-4 flex flex-col gap-5 transition-all ease-in">
         {!isExpanded && (
-          <ul className="grid w-1/2 grid-cols-2 gap-4">
+          <ul className="grid grid-cols-2 gap-4">
             <li className="flex gap-x-2 align-middle">
               <Icon icon="devicon:javascript" className="text-2xl" />
               Javascript
@@ -54,7 +54,7 @@ const TechStack = () => {
             <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               Frontend Centric
             </h5>
-            <ul className="grid w-1/2 grid-cols-2 gap-4">
+            <ul className="grid grid-cols-2 gap-4">
               <li className="flex gap-x-2 align-middle">
                 <Icon icon="devicon:javascript" className="text-2xl" />
                 Javascript
@@ -83,7 +83,7 @@ const TechStack = () => {
             <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               Backend Centric
             </h5>
-            <ul className="grid w-1/2 grid-cols-2 gap-4">
+            <ul className="grid grid-cols-2 gap-4">
               <li className="flex gap-x-2 align-middle">
                 <Icon icon="devicon:nodejs" className="text-2xl" />
                 Node
@@ -103,7 +103,7 @@ const TechStack = () => {
             <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               Mobile development
             </h5>
-            <ul className="grid w-1/2 grid-cols-2 gap-4">
+            <ul className="grid grid-cols-2 gap-4">
               <li className="flex gap-x-2 align-middle">
                 <Icon icon="devicon:react" className="text-2xl" />
                 React Native
@@ -116,7 +116,7 @@ const TechStack = () => {
             <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               UI Frameworks
             </h5>
-            <ul className="grid w-1/2 grid-cols-2 gap-4">
+            <ul className="grid grid-cols-2 gap-4">
               <li className="flex gap-x-2 align-middle">
                 <Icon icon="devicon:antdesign" className="text-2xl" />
                 AntDesign
@@ -146,7 +146,7 @@ const TechStack = () => {
             <h5 className="my-2 w-max border-b-[1px] border-cyan-50 text-sky-300">
               Tools
             </h5>
-            <ul className="grid w-1/2 grid-cols-2 gap-4">
+            <ul className="grid grid-cols-2 gap-4">
               <li className="flex gap-x-2 align-middle">
                 <Icon icon="devicon:vscode" className="text-2xl" />
                 VSCode

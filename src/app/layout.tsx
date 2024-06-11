@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body
         className={cn(
-          "min-h-screen bg-background font-robotoMono antialiased",
+          "min-h-screen bg-primary-foreground font-robotoMono antialiased",
           roboto_Mono.variable,
         )}
       >

@@ -2,7 +2,9 @@ import Companies from "@/components/Companies";
 import Navbar from "@/components/Navbar";
 import SocialMedia from "@/components/SocialMedia";
 import TechStack from "@/components/TechStack";
+import { Button } from "@/components/ui/button";
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,17 +12,27 @@ export default function Home() {
     <main className="container mx-auto min-h-screen">
       <Navbar />
       <div className="mt-4 grid grid-cols-1 gap-x-4 lg:grid-cols-5">
-        <section className="col-span-1 scroll-mt-14 lg:col-span-2" id="about">
+        <section
+          className="col-span-1 scroll-mt-14 lg:col-span-2 lg:border-r-[1px]"
+          id="about"
+        >
           <div className="lg:fixed lg:w-min">
             <div className="mt-10">
-              <h1 className="lg:text-3xl xl:text-4xl">jayasurian</h1>
-              <h2 className="text-sky-300 lg:text-6xl xl:text-8xl">makkoth.</h2>
+              <h1 className="text-3xl xl:text-4xl">jayasurian</h1>
+              <h2 className="text-6xl text-sky-300 xl:text-8xl">makkoth.</h2>
               <p>
                 Or you can call me{" "}
-                <span className="text-xl text-sky-200">&quot;jay&quot;</span>
+                <span className="text-xl text-sky-300">&quot;jay&quot;</span>
               </p>
             </div>
             <h3 className="mt-10 text-2xl text-sky-300">Software Engineer</h3>
+            <Image
+              src="/profile.webp"
+              height={200}
+              width={200}
+              alt="profile picture"
+              className="rounded-full"
+            ></Image>
             <div className="mt-4 flex flex-col gap-y-2 text-sm">
               <p>Hi, thanks for looking around :) </p>
               <p>
@@ -34,9 +46,13 @@ export default function Home() {
                 />
                 <span>Berlin, Germany</span>
               </p>
-              <button className="mt-4 w-max border-2 px-3 py-2">
-                Get in Touch
-              </button>
+              <Button
+                className="mt-4 w-max border-2 px-3 py-2"
+                variant="outline"
+              >
+                <Icon icon="mdi:email-fast-outline" className="mr-2 text-xl" />
+                <Link href="mailto:jayasurian123@gmail.com">Get in Touch</Link>
+              </Button>
             </div>
             <div className="mt-5">
               <SocialMedia />
