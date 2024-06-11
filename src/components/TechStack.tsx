@@ -2,19 +2,17 @@
 
 import { Button } from "@/components/ui/button";
 import { Icon } from "@iconify/react";
-import { useTheme } from "next-themes";
 import { useState } from "react";
 
 const TechStack = () => {
-  const data = useTheme();
-  console.log("🚀 ~ TechStack ~ data:", data);
   const [isExpanded, setExpandTech] = useState(false);
 
   return (
     <>
       <h4 className="text-4xl">What do I do.</h4>
       <p className="mt-3">
-        I am a software professional for last 18 years! I do fullstack
+        I am a software professional for last{" "}
+        <span className="text-xl text-blue-300">18 years!</span> I do fullstack
         development but heavily focused on frontend development. Hands on
         frontend architecture to react native development in these years :)
       </p>

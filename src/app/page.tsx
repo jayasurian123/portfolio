@@ -1,4 +1,6 @@
+import Companies from "@/components/Companies";
 import Navbar from "@/components/Navbar";
+import SocialMedia from "@/components/SocialMedia";
 import TechStack from "@/components/TechStack";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
@@ -8,7 +10,7 @@ export default function Home() {
     <main className="container mx-auto min-h-screen">
       <Navbar />
       <div className="mt-4 grid grid-cols-1 gap-x-4 lg:grid-cols-5">
-        <section className="col-span-1 lg:col-span-2">
+        <section className="col-span-1 scroll-mt-14 lg:col-span-2" id="about">
           <div className="lg:fixed lg:w-min">
             <div className="mt-10">
               <h1 className="lg:text-3xl xl:text-4xl">jayasurian</h1>
@@ -37,43 +39,30 @@ export default function Home() {
               </button>
             </div>
             <div className="mt-5">
-              <ul className="flex gap-3">
-                <li>
-                  <Link
-                    href="https://twitter.com/jayasurian123"
-                    target="_blank"
-                  >
-                    <Icon
-                      icon="fa6-brands:x-twitter"
-                      className="cursor-pointer text-2xl hover:text-blue-300"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://github.com/jayasurian123" target="_blank">
-                    <Icon
-                      icon="fa6-brands:github"
-                      className="cursor-pointer text-2xl hover:text-blue-300"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.linkedin.com/in/jayasurianmakkoth/"
-                    target="_blank"
-                  >
-                    <Icon
-                      icon="fa6-brands:linkedin"
-                      className="cursor-pointer text-2xl hover:text-blue-300"
-                    />
-                  </Link>
-                </li>
-              </ul>
+              <SocialMedia />
             </div>
           </div>
         </section>
-        <section className="col-span-1 mt-6 lg:col-span-3">
+        <section className="col-span-1 mt-6 flex flex-col lg:col-span-3">
           <TechStack />
+          <Companies />
+          <div className="mb-10 mt-6" id="contact">
+            <h4 className="my-4 text-4xl">Say Hi.</h4>
+            <p>
+              You could get in touch with me for a project work or social. I
+              would defenitly reply :) You could either{" "}
+              <Link
+                href="mailto:jayasurian123@gmail.com"
+                className="text-xl text-blue-300 hover:text-2xl"
+              >
+                mail
+              </Link>{" "}
+              me or connect with me any of the below social media
+            </p>
+            <div className="mt-4">
+              <SocialMedia />
+            </div>
+          </div>
         </section>
       </div>
     </main>
