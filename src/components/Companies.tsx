@@ -41,13 +41,13 @@ const Companies = () => {
               Frontend Lead as Freelancer (2019 - 2023)
             </CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="grid grid-cols-1 gap-y-2">
             <p>
               - Architectred many frontend projects & built & trained a good
               team
             </p>
             <p>- Joined as a first frontend focused developer</p>
-            <div className="mt-4 flex gap-3">
+            <div className="mt-4 hidden gap-3 md:flex">
               <Badge>React</Badge>
               <Badge>React native</Badge>
               <Badge>PWA</Badge>
@@ -79,12 +79,12 @@ const Companies = () => {
               Sr. engineer & frontend lead (2012 - 2018)
             </CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="grid grid-cols-1 gap-y-2">
             <p>- Part of team creating babbel trainers</p>
             <p>
               - Joined in the startup & seen growing it around 300+ employees
             </p>
-            <div className="mt-4 flex gap-3">
+            <div className="mt-4 hidden gap-3 md:flex">
               <Badge>Javascript</Badge>
               <Badge>RoR</Badge>
             </div>
@@ -114,7 +114,7 @@ const Companies = () => {
               Sr. engineer & tech lead (2006 - 2012)
             </CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="grid grid-cols-1 gap-y-2">
             <p>
               - Part of Yahoo! mail engineer rewriting the whole mail frontend
             </p>
@@ -122,12 +122,11 @@ const Companies = () => {
               - Part of tech evengelist group. Given many talks in the campus
               and open platforms
             </p>
-
             <p>
               - Worked in different roles starting from engineer to tech lead
             </p>
             <p>- Joined directly from the NIT campus</p>
-            <div className="mt-4 flex gap-3">
+            <div className="mt-4 hidden gap-3 md:flex">
               <Badge>Javascript</Badge>
               <Badge>php</Badge>
             </div>
