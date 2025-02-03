@@ -1,4 +1,4 @@
-# John Doe - Full-Stack Developer
+# Jayasurian Makkoth - Full-Stack Developer
 
 Passionate software engineer specializing in building scalable and user-friendly web applications.
 
