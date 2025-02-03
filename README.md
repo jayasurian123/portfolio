@@ -1,4 +1,4 @@
-# Jayasurian Makkoth - Full-Stack Developer
+# Jayasurian Makkoth - Lead Frontend Engineer
 
 Passionate software engineer specializing in building scalable and user-friendly web applications.
 
