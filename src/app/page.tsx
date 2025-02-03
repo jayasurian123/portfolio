@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <h3 className="mt-10 text-2xl text-sky-300">Software Engineer</h3>
             <Image
-              src="/profile.webp"
+              src="/profile.jpg"
               height={200}
               width={200}
               alt="profile picture"
